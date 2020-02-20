@@ -1,0 +1,126 @@
+/*-- Filter Button --*/
+.portfolio-gallary .button-group {
+  margin-bottom: 20px;
+  width: 100%;
+  text-align: center;
+}
+/*
+.portfolio-gallary .button-group .button {
+  background: #fff none repeat scroll 0 0;
+  border: 3px solid #554cff;
+  border-radius: 50px;
+  color: #363636;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  padding: 5px 30px;
+}*/
+.portfolio-gallary .button-group .button {
+  background: #fff none repeat scroll 0 0;
+  border: 2px solid #8F2DCD;
+  border-radius: 20px;
+  color: #363636;
+  font-size: 15px;
+  font-weight: 600;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding: 2px 20px;
+}
+.portfolio-gallary .button-group .button.is-checked {
+  background: #8F2DCD;
+  color: #fff;
+}
+/*-- Filter Button End--*/
+.portfolio-snip {
+  position: relative;
+  float: left;
+  overflow: hidden;
+  text-align: center;
+  -webkit-perspective: 50em;
+  perspective: 50em;
+  margin-bottom: 20px;
+}
+.portfolio-snip:after {
+  background-color: #000000a6;
+  position: absolute;
+  content: "";
+  display: block;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  -webkit-transform: rotateX(-90deg);
+  transform: rotateX(-90deg);
+  -webkit-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  opacity: 0;
+}
+.portfolio-snip .snip-details {
+  top: 50%;
+  left: 20px;
+  right: 20px;
+  position: absolute;
+  opacity: 0;
+  z-index: 1;
+}
+.portfolio-snip .snip-details .category {
+  width: 100%;
+  display: inline-block;
+  margin-top: 5px;
+}
+.portfolio-snip .icon {
+  /*border: 3px solid #ffffff;*/
+  display: inline-block;
+  border-radius: 5px;
+  font-size: 22px;
+  height: 50px;
+  line-height: 50px;
+  margin-bottom: 10px;
+  width: 50px;
+}
+.portfolio-snip:hover:after {
+  -webkit-transform: rotateX(0);
+  transform: rotateX(0);
+  opacity: 0.9;
+}
+.portfolio-snip:hover .snip-details,
+.portfolio-snip.hover .snip-details {
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  opacity: 1;
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+.pclass{
+  color:#fff;
+}
+i.fa.fa-arrows-alt.pclass {
+  color: #fff;
+}
+i.fa.fa-link {
+  color: #fff;
+}
+a.pclass:hover, a.pclass:focus{
+  color:#cbcdd0;
+}
+.lbportfoliobox{
+  padding: 15px !important;
+}
+.fancybox-toolbar{
+  right:8% !important;
+}
+#header{
+  background-color: #fff !important;
+}
+button.button {
+  outline: none;
+}
+
+.lbimage{
+  height:150px;
+  width:300px;
+}
